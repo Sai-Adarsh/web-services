@@ -2,18 +2,18 @@
 <html>
 <body>
 
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-    Text: <input type="text" name="text"><br /><br />
-    Size: <input type="number" name="size"><br /><br />
-    Code Type:
-    <select id="codetype" name="codetype">
-        <option value="codabar">codabar</option>
-        <option value="code128">code128</option>
-        <option value="code39">code39</option>
-        <option value="code25">code25</option>
-    </select>
-    <input type="submit">
-</form>
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+        Text: <input type="text" name="text"><br /><br />
+        Size: <input type="number" name="size"><br /><br />
+        Code Type:
+        <select id="codetype" name="codetype">
+            <option value="codabar">codabar</option>
+            <option value="code128">code128</option>
+            <option value="code39">code39</option>
+            <option value="code25">code25</option>
+        </select>
+        <input type="submit">
+    </form>
 
 <?php
     include ('ui_func.php');
