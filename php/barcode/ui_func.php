@@ -122,7 +122,7 @@
 		$file = BASE_DIR.'images'.$filepath.'.png';
 		imagepng($image,$file);
 		imagedestroy($image);
-		echo "saved";
+		echo "Saved";
 	}
 
 ?>

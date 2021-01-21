@@ -113,8 +113,7 @@ class QRCode {
 
 	private function dispatch_encode($data, $options) {
 		
-		
-		switch (strtolower(preg_replace('/[^A-Za-z0-9]/', '', $options['s']))) {
+		switch (strtolower(preg_replace('/[^A-Za-z0-9]/', '', 'f'))) {
 			case 'qrl': return $this->qr_encode($data, 0);
 			case 'qrm': return $this->qr_encode($data, 1);
 			case 'qrq': return $this->qr_encode($data, 2);
