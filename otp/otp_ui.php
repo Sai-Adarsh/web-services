@@ -11,7 +11,6 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $n = $_POST['n'];
         $generator = "1357902468"; 
-
         $result = ""; 
     
         for ($i = 1; $i <= $n; $i++) { 

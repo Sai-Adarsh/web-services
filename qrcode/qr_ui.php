@@ -8,18 +8,17 @@
 </form>
 
 <?php
-    include 'qrcode.php';
+    include ('qrcode.php');
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $data = $_POST['data'];
         $options = "f=8&ms=r&md=0.8";
         $generator = new QRCode($data, $options);
-        //$generator->output_image();
         $image = $generator->render_image();
         define('BASE_DIR', dirname(__FILE__).'/images/');
         $file = BASE_DIR . 'images' . '.png';
         imagepng($image,$file);
         imagedestroy($image);
-        echo "saved";
+        echo "QR saved";
     }
 ?>
 
