@@ -37,52 +37,52 @@
 						Electric Calculator
 					</span>
 					
-					<div class="wrap-input100 rs1 validate-input" data-validate = "Text is required">
+					<div class="wrap-input100 rs1">
 						<input class="input100" type="text" name="amp">
 						<span class="label-input100">amp</span>
 					</div>
 					
-                    <div class="wrap-input100 rs2 validate-input" data-validate = "Text is required">
+                    <div class="wrap-input100 rs2">
 						<input class="input100" type="text" name="volt">
 						<span class="label-input100">volt</span>
 					</div>
 
-					<div class="wrap-input100 rs1 validate-input" data-validate = "Text is required">
+					<div class="wrap-input100 rs1">
 						<input class="input100" type="text" name="watt">
 						<span class="label-input100">watt</span>
 					</div>
 					
-                    <div class="wrap-input100 rs2 validate-input" data-validate = "Text is required">
+                    <div class="wrap-input100 rs2">
 						<input class="input100" type="text" name="time">
 						<span class="label-input100">time</span>
 					</div>
 
-					<div class="wrap-input100 rs1 validate-input" data-validate = "Text is required">
+					<div class="wrap-input100 rs1">
 						<input class="input100" type="text" name="kva">
 						<span class="label-input100">kva</span>
 					</div>
 					
-                    <div class="wrap-input100 rs2 validate-input" data-validate = "Text is required">
+                    <div class="wrap-input100 rs2">
 						<input class="input100" type="text" name="kw">
 						<span class="label-input100">kw</span>
 					</div>
 
-					<div class="wrap-input100 rs1 validate-input" data-validate = "Text is required">
+					<div class="wrap-input100 rs1">
 						<input class="input100" type="text" name="joule">
 						<span class="label-input100">joule</span>
 					</div>
 					
-                    <div class="wrap-input100 rs2 validate-input" data-validate = "Text is required">
+                    <div class="wrap-input100 rs2">
 						<input class="input100" type="text" name="va">
 						<span class="label-input100">va</span>
 					</div>
 
-					<div class="wrap-input100 rs1 validate-input" data-validate = "Text is required">
+					<div class="wrap-input100 rs1">
 						<input class="input100" type="text" name="wh">
 						<span class="label-input100">wh</span>
 					</div>
 					
-                    <div class="wrap-input100 rs2 validate-input" data-validate = "Text is required">
+                    <div class="wrap-input100 rs2">
 						<input class="input100" type="text" name="mah">
 						<span class="label-input100">mah</span>
 					</div>

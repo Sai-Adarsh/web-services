@@ -56,6 +56,8 @@
                     <div class="text-center w-full p-t-23">
 						<a href="#" class="txt1">
 							<?php
+								header("Access-Control-Allow-Origin: *");
+								header("Access-Control-Allow-Headers: *");
 								if ($_SERVER["REQUEST_METHOD"] == "POST") {
 								
 										$param_degree = $_POST['degree'];
